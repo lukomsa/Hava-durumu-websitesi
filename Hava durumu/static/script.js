@@ -1,6 +1,6 @@
 let userLatitude;
 let userLongitude;
-const apiKey = '640c3f9e70d56000f8b3fb938fb7d817';
+const apiKey = 'YOUR_API';
 
 const translations = {
     tr: {
