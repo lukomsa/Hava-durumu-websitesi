@@ -10,8 +10,6 @@ Bu repo, kullanıcıların mevcut konumlarına veya aradıkları herhangi bir ş
 - **Kullanıcı Konumu Tabanlı Sonuçlar:** Cihazın konum servisleri aracılığıyla kullanıcıların mevcut konumlarına göre hava durumu bilgileri alınabilir.
 - **Arama İşlevselliği:** Kullanıcılar, ilgilendikleri herhangi bir şehrin hava durumu bilgilerini arayabilir ve görüntüleyebilirler.
 - **Kullanıcı Dostu Arayüz:** Temiz ve anlaşılır bir kullanıcı arayüzü ile kullanıcıların hava durumu verilerine kolayca erişmelerini sağlar.
-- **Ses Kontrolü İçeren Arka Plan Müziği:** Web sitesi ziyaretçilerine hoş bir deneyim sunmak için arka plan müziği eklenmiş ve kullanıcılar bu müziği kontrol edebilir.
-
 #### Nasıl Kullanılır:
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip edin:
