@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.controls {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+
+.weather-container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%; /* Masaüstü ve büyük ekranlar için */
+}
+
+#cityInput, #languageSelect {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: white;
+    color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover, #languageSelect:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Küçük ekranlar ve mobil cihazlar için stil ayarları (480px ve altı) */
+@media (max-width: 480px) {
+    .weather-container {
+        width: 95%; /* Mobil cihazlarda ekranın çoğunu kaplar */
+        padding: 10px; /* Daha az padding */
+    }
+
+    #cityInput, #languageSelect, button {
+        padding: 8px; /* Daha ince padding */
+        margin-top: 10px; /* Daha az üst marj */
+        width: auto; /* Otomatik genişlik, ekranı daha iyi doldurur */
+        display: block; /* Her biri kendi satırında */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .controls, button {
+        padding: 5px; /* Kontroller için daha az padding */
+    }
+    
+    button {
+        margin-top: 10px; /* Buton için üst marj ayarı */
+        margin-bottom: 10px; /* Buton için alt marj ayarı */
+    }
+}

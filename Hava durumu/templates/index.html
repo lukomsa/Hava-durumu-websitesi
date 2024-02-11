@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title data-key="appTitle">Hava Durumu Uygulaması</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="controls">
+        <select id="languageSelect">
+            <option value="tr">Türkçe</option>
+            <option value="nl">Nederlands</option>
+            <option value="en">English</option>
+        </select>
+        <input type="text" id="cityInput" placeholder="Enter a city name...">
+        <button onclick="getWeatherByCity()" data-key="searchButton">Search</button>
+    </div>
+    <div class="weather-container">
+        <h1 data-key="currentLocationWeather">Mevcut Konumun Hava Durumu</h1>
+        <div id="currentWeather"></div>
+    </div>
+    <div class="weather-container">
+        <h1 data-key="searchResults">Arama Sonuçları</h1>
+        <div id="searchResults"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
